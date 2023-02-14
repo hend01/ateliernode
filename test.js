@@ -1,0 +1,13 @@
+setTimeout(function(){
+    console.log("a");
+},1000);
+setTimeout(function(){
+    console.log("B");
+},0);
+setTimeout(function(){
+    console.log("c");
+},2000);
+setTimeout(function(){
+    console.log("d");
+},1000);
+console.log("e");
